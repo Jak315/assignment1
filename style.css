@@ -1,0 +1,168 @@
+body {
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.navbarr {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  /* background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important; */
+}
+
+.navbar-body {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100vw;
+  background-color: #dceaf5;
+}
+.navbar-menu {
+  display: inline-block;
+  text-decoration: none;
+  color: #1d3444;
+  padding-left: 20px;
+}
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar-menu :hover {
+  color: #f58a07;
+}
+.cta-btn {
+  background: #fce8d2;
+  color: #f58a07;
+  border-radius: 30px;
+  padding: 15px;
+  width: 800px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+}
+
+.header-body-content {
+  display: inline-block;
+  display: flex;
+}
+
+.header
+  .container
+  .header-body
+  .header-body-content
+  .header-content-logos
+  :first-child {
+  padding-left: 0;
+}
+.header .container .header-body .header-body-content p {
+  color: grey;
+}
+.header-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #1d3444;
+  padding-left: 10px;
+}
+.header-btn .active {
+  background: #f58a07;
+  color: white;
+  border-radius: 30px;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+}
+.header-body-content h2 {
+  font-size: 60px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.header-body {
+  padding: 150px 0 auto;
+}
+
+.card {
+  display: inline-block;
+  box-sizing: border-box;
+  width: calc(100% / 3- 30px);
+}
+
+.col {
+  display: flex;
+}
+.sector {
+  padding: 100px 0px;
+}
+.sector-header {
+  padding: 0px 10px 0px 0px;
+  width: calc(100% / 2);
+  margin-bottom: 0px;
+}
+.sector-header :first-child {
+  font-size: 48px;
+  font-weight: 500;
+}
+.sector-header :last-child {
+  padding: 0px 0px 30px;
+  font-size: 18px;
+}
+.card img {
+  border-radius: 15px;
+}
+.card a {
+  text-decoration: none;
+  color: #f58a07;
+}
+.sector .row .col .card .p {
+  padding: 10px;
+}
+
+.software {
+  background-color: #dceaf5;
+  height: 60vh;
+  padding: 100px;
+}
+
+.software-header {
+  display: flex;
+}
+
+.software-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0 100 0 0;
+}
+.software-header p {
+  font-size: 18px;
+}
+
+.software .container .row .col .card {
+  background-color: white;
+  border-radius: 15px;
+}
